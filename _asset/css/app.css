@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 15rem;
+  min-height: 100%;
+  background-color: #F2F3F5;
+  font-family: 'Lato'; }
+
+.fa-btn {
+  margin-right: 6px; }
+
+.panel-heading {
+  text-align: center; }
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+h3 {
+  background-color: rgba(245, 245, 245, 0.68);
+  padding: 8px 15px; }
+
+h3 span.list-toggle {
+  font-size: 80%; }
+
+.list-group li {
+  background-color: rgba(245, 245, 245, 0.68); }
+
+.navbar {
+  z-index: 10; }
+
+label {
+  margin-top: 10px; }
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.find-form {
+  padding-top: 1em; }
+
+.navbar {
+  border-bottom: 2px solid #747576; }
+  .navbar .nav li a {
+    color: #182844;
+    font-size: 16px; }
+
+.navbar-brand {
+  padding: 6px; }
+  .navbar-brand img {
+    float: left; }
+  .navbar-brand p {
+    float: right;
+    display: block;
+    line-height: 36px;
+    margin-left: 10px; }
+
+.btn {
+  background-color: #D2D3D4;
+  border: 1px solid #8C8D8E;
+  padding: 0.2em 1em;
+  border-radius: 8px;
+  text-align: center;
+  color: #182844; }
+  .btn:hover {
+    background-color: #182844;
+    color: white; }
+    .btn:hover .b {
+      color: white; }
+
+.home .panel {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding-bottom: 1.5em; }
+  .home .panel .btn {
+    font-size: 1.5em; }
+
+.y {
+  color: #F6A635; }
+
+.b {
+  color: #182844; }
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #F6A635;
+  z-index: 10; }
+  footer .scroll-bottom {
+    text-align: center;
+    margin-bottom: 0.25em; }
+    footer .scroll-bottom i {
+      font-size: 2.5em; }
+  footer .bottom-links {
+    padding-bottom: 1em; }
+    footer .bottom-links .col-md-4 {
+      text-align: center;
+      border-right: 1px solid #182844; }
+      footer .bottom-links .col-md-4 ul {
+        margin-left: 0; }
+        footer .bottom-links .col-md-4 ul li {
+          list-style: none;
+          text-align: left; }
+          footer .bottom-links .col-md-4 ul li a {
+            color: #182844; }
+      footer .bottom-links .col-md-4:last-child {
+        border: 0; }
+
+.sell-house h1, .sell-house h2 {
+  text-align: left; }
+.sell-house .btn {
+  font-size: 1.3em; }
+.sell-house .form-group {
+  clear: both; }
+  .sell-house .form-group label, .sell-house .form-group input, .sell-house .form-group select {
+    float: left; }
+  .sell-house .form-group label {
+    width: 40%;
+    color: #182844; }
+  .sell-house .form-group input, .sell-house .form-group select {
+    width: 60%;
+    margin-bottom: 1.5em;
+    border-radius: 8px;
+    border-color: #8C8D8E; }
+
+.my-houses table {
+  width: 100%; }
+  .my-houses table tr {
+    border-bottom: 1px solid #8C8D8E; }
+    .my-houses table tr td, .my-houses table tr th {
+      padding: 1.5em; }
+    .my-houses table tr:last-child {
+      border-bottom: transparent; }
+
+/*# sourceMappingURL=app.css.map */
